@@ -1,0 +1,56 @@
+.form__container {
+    background-color: #0002;
+    width: 100%;
+    min-height: 100vh;
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.users__container {
+
+display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+}
+.disable__form {
+    display: none;
+}
+.user {
+    background-color: orange;
+    width: min(200px);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #0005;
+}
+.form {
+    background-color: orangered;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #0005;
+}
+.form__input {
+    display: flex;
+    flex-direction: column;
+
+}
+.form__btn {
+    margin-top: 15px;
+    cursor: pointer;
+}
+.form__title {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+}
+.form__title i {
+cursor: pointer;
+font-size: 1.3rem;
+}
